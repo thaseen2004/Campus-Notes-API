@@ -1,23 +1,26 @@
-Campus Notes API    
+campus notes API    
 
-A simple REST API for managing campus notes, built with Node.js and Express and fully Dockerized
+simple rest API for managing campus notes, built with Node.js and express and fully dockerized
 
-Tech Stack
-1-Node.js
-2-Express
-3-Docker
-4-Docker Compose
+tech stack
+1-node.js
+2-express
+3-docker
+4-docker compose
 
-Run with Docker
+run with docker
 1-docker build -t campus-notes-api
 2-docker run -p 3000:3000 campus-notes-api
 3-http://localhost:3000/notes
 4-docker ps
 docker stop <container_id>
 
-How to Test
+how to test
 GET /notes 
 GET /health 
 
-Example:
+example:
 http://localhost:3000/health
+
+production url:
+https://campusnotesapi4-a0likc2q.b4a.run/health
